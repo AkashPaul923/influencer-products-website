@@ -10,8 +10,18 @@ body{
     font-family: "Poppins", sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    border: 1px solid aqua;
 }
 /* shared style */
+.btn-primary{
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
 
 /* header section style */
 header{
@@ -47,4 +57,43 @@ header{
 }
 .nav-image-2{
     width: 29px;
+}
+
+/* banner section style */
+.banner{
+    margin-top: 40px;
+}
+
+.banner-container{
+    display: flex;
+    gap: 133px;
+}
+.banner-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 582px;
+}
+.banner-image{
+    background-image: url(../assets/images/Circle\ design.svg);
+    align-items: center;
+    justify-content: center;
+}
+.banner-image img{
+    width: calc(100% - 61px);
+    margin: 30px 33px 31px 2px;
+}
+
+.banner-title{
+    color: rgb(58, 58, 58);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+    max-width: 505px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
