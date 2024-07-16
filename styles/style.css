@@ -78,6 +78,7 @@ header{
     background-image: url(../assets/images/Circle\ design.svg);
     align-items: center;
     justify-content: center;
+    min-height: 475px;
 }
 .banner-image img{
     width: calc(100% - 61px);
@@ -96,4 +97,20 @@ header{
     max-width: 505px;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+
+/* main section style */
+/* logo section style */
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    max-width: 1110px;
+    margin: 69px auto 100px;
+    padding: 36px 62px;
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6), rgba(192, 204, 218, 0.1)) 1 ;
+    
+    /* background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%); */
 }
