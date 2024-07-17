@@ -217,3 +217,24 @@ max-width: 510px;
     margin-top: 26px;
     border: none;
 }
+
+/* footer style */
+footer{
+    background: rgb(0, 0, 28);
+    padding: 50px 0px ;
+    text-align: center;
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+}
+.footer-copyright{
+    margin: 0;
+    color: rgb(217, 219, 225);
+font-family: Manrope;
+font-size: 0.875rem;
+font-weight: 700;
+line-height: 24px;
+}
